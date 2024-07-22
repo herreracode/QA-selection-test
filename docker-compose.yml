@@ -3,7 +3,6 @@ version: "3.12"
 services:
   selenium:
     image: selenium/standalone-chrome:latest
-    container_name: chrome_selenium
     depends_on:
         - app
     ports:
