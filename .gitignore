@@ -1,1 +1,6 @@
-.idea
+# Unit test & pytest coverage reports
+*.pytest_cache/
+*./
+*__pycache__/
+*.idea/
+*.env
