@@ -1,7 +1,23 @@
 # Test QA Suite
 Demo test for new QA's.
 
-## Puntos a considerar en la evaluación:
+The test consists of executing an automation script towards the URL specified in the .env.example.
+
+For init the project you must copy .env.example to .env
+
+it will be valued to do all the test case.
+
+In this project you got all you need for the test with docker :).
+
+You must have install docker and docker-compose in your computer for use this skeleton.
+
+- more information docker [here](https://www.docker.com/).
+- more information docker-compose [here](https://docs.docker.com/compose/)
+
+### If you don't know docker, please still do the test and us will valorated your code. I'll Appreciate so much docs and writen brief explanation with details that you consider importants 
+
+
+## Points to consider in the evaluation:
 - It'll be considered to use page object model pattern.
 - It's recomended to validate error cases, for example: wrong Login, field with specific formats entered wrongly.
 - test's segmentation.
